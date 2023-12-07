@@ -1,0 +1,61 @@
+body {
+  background-color: #FFFFFF;
+  font-family: Graphik, sans-serif;
+}
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 17.5px;
+    color: black !important;
+    gap: 15px;
+    
+  }
+  .mayur {
+    font-size: 50px !important;
+    line-height: 52px !important;
+  }
+}
+.navbar-nav{
+  font-family: Graphik, sans-serif;
+}
+.navbar{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.navbar-brand {
+  margin-left: 20px;
+}
+.mayur{
+  position: relative;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  line-height: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  transition-timing-function: linear;
+}
+.our_services {
+  font-size: 16px;
+  font-weight: 600;
+}
+.text , .our_services {
+  
+  /* -webkit-text-stroke: 1px #3C4C69; */
+  background-image: url("https://t3.ftcdn.net/jpg/02/25/02/48/240_F_225024841_7b2gkqxIyskWsexHw19gIW9fro1iuOns.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.hero_image{
+  filter: drop-shadow(2px 8px 20px rgb(49, 48, 48));
+}
+.card-title{
+  color: #2D0B34;
+  opacity: 100%;
+}
+
+.custom_card{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}

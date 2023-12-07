@@ -1,0 +1,27 @@
+.hole{
+    background-image: url("./website_dev.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+}
+.container_main{
+    padding-bottom: 3% ;
+   
+}
+.content {
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2.5s ease-in-out forwards; /* Animation to fade in */
+    /* Other styles for the section */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
