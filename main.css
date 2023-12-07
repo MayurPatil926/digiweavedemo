@@ -48,9 +48,9 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
-/* .hero_image{
+.hero_image{
   filter: drop-shadow(2px 5px 10px rgb(49, 48, 48));
-} */
+}
 .card-title{
   color: #2D0B34;
   opacity: 100%;
